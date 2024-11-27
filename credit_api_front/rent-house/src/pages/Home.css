@@ -1,0 +1,63 @@
+/* Home.css */
+
+/* Estilo da área principal */
+.home-container {
+  background-image: url('../favicon_io/background.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  min-height: 88vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; 
+  padding: 20px;
+}
+
+/* Texto principal */
+.home-text {
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 30px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  max-width: 600px;
+}
+
+/* Estilo do título */
+.home-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #78C850; 
+}
+
+/* Estilo do parágrafo */
+.home-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #e0e0e0;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.role-button {
+  background-color: #78C850; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.role-button:hover {
+  background-color: #66a040;
+  transform: scale(1.05); 
+}

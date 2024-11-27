@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1727904886690,"sparkVersion":"3.5.2","uid":"StringIndexer_3bcfb850237b","paramMap":{"outputCol":"salario_anual_indexed","handleInvalid":"keep","inputCol":"salario_anual"},"defaultParamMap":{"outputCol":"StringIndexer_3bcfb850237b__output","stringOrderType":"frequencyDesc","handleInvalid":"error"}}

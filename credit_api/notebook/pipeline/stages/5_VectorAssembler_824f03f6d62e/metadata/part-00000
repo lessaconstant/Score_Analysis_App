@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1727904887175,"sparkVersion":"3.5.2","uid":"VectorAssembler_824f03f6d62e","paramMap":{"outputCol":"features_final","inputCols":["escolaridade_indexed","salario_anual_indexed","tipo_cartao_indexed","scaled_features"]},"defaultParamMap":{"outputCol":"VectorAssembler_824f03f6d62e__output","handleInvalid":"error"}}
